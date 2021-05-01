@@ -1,0 +1,103 @@
+body{
+    background-color: #dadada;
+    margin: 0px;
+}
+
+h1 {
+    color: rgb(77, 119, 91);
+}
+
+* {
+    border: solid;
+}
+.header{
+    background-color: rgb(194, 165, 124);
+    display: flex;
+    justify-content: space-between;
+    color:rgb(77, 119, 91);
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.origami{
+position: relative;
+ background-color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 30px;
+margin: 25px;
+width: 310px;
+border-radius: 20px;
+font-family: fantasy;
+}
+.footer{
+display: flex;
+justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+.title{
+    background-color: antiquewhite;
+}
+
+.info{
+    background-color: #4d775b;
+font-family: cursive;
+}
+.image{
+    background-color: rgb(250, 235, 215) ;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(77, 119, 91);
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:rgb(250, 235, 215)
+}
+
+a:link{
+    color: white;
+    }
+    
+    a:visited{
+    color: #a3b2a9;
+    }
+
+    .origami:hover {
+        transform: scale(1.01);
+     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    border-radius: 20px;
+    font-family: fantasy;
+    }
+    
+    .item p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.3;
+    }
+    
+  
